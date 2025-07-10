@@ -18,6 +18,7 @@ function draw() {
   // }
 
   // let spacing = 50;
+  let colorValue = 0; //starting colorValue
   // for (let i=0; i<5; i++) {
   //   fill(i*50);
   //   circle(spacing + i*spacing, 100, 40);
@@ -26,10 +27,10 @@ function draw() {
 
   // Task 2: Colour Loop
 
-  let colorValue = 0; //starting colorValue
-
-  fill(colorValue);
   
+
+  
+
 
   // Task 3: Row of Circles
 
