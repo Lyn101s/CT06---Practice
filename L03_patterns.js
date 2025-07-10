@@ -19,11 +19,12 @@ function draw() {
 
   // let spacing = 50;
   let colorValue = 0; //starting colorValue
-  // for (let i=0; i<5; i++) {
+  
+  for (let i=0; i<5; i++) {
   //   fill(i*50);
-      fill(colorValue);
-  //   circle(spacing + i*spacing, 100, 40);
-  // }
+  fill(colorValue);
+    circle(spacing + i*spacing, 100, 40);
+  }
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop
