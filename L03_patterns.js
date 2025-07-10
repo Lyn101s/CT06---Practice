@@ -22,12 +22,15 @@ function draw() {
 
  
   
-  for (let i=0; i<5; i++) {
-  //   fill(i*50);
-    fill(colorValue);
-    circle(spacing + i*spacing, 100, 40);
-    colorValue +=1;
-  }
+  // for (let i=0; i<5; i++) {
+  // //   fill(i*50);
+  //   fill(colorValue);
+  //   circle(spacing + i*spacing, 100, 40);
+  //   colorValue +=1;
+  // }
+
+
+  
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop
