@@ -4,6 +4,8 @@ function setup() {
     //noLoop(); // Stops continuous drawing
   }
 let colorValue = 0; //starting colorValue
+let spacing = 50;
+
 function draw() {
   // Recap 1: Repeating Circles
   
@@ -17,7 +19,7 @@ function draw() {
   //   circle(50 + i*50, 100, 40);
   // }
 
-  let spacing = 50;
+
  
   
   for (let i=0; i<5; i++) {
