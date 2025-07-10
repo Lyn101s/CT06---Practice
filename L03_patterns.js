@@ -17,7 +17,7 @@ function draw() {
   //   circle(50 + i*50, 100, 40);
   // }
 
-  // let spacing = 50;
+  let spacing = 50;
   let colorValue = 0; //starting colorValue
   
   for (let i=0; i<5; i++) {
