@@ -28,7 +28,8 @@ function draw() {
 
   let colorValue = 0; //starting colorValue
 
-  fill()
+  fill(colorValue);
+  
 
   // Task 3: Row of Circles
 
