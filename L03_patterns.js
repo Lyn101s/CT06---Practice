@@ -8,8 +8,8 @@ function draw() {
   // Recap 1: Repeating Circles
   
   circle(100, 100, 50);
-  circle(250, 100, 50);
-  circle(400, 100, 50);
+  circle(200, 100, 50);
+  circle(300, 100, 50);
   circle(400, 100, 50);
 
 
