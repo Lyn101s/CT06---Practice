@@ -30,7 +30,7 @@ function draw() {
   // }
 
 
-  
+  fill(colorValue)
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop
