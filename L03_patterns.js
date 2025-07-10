@@ -26,6 +26,8 @@ function draw() {
 
   // Task 2: Colour Loop
 
+  let colorValue = 0
+
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
