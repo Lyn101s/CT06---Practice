@@ -24,6 +24,7 @@ function draw() {
   //   fill(i*50);
     fill(colorValue);
     circle(spacing + i*spacing, 100, 40);
+    colorValue +=1;
   }
   // Task 1: Colour Gradient
 
