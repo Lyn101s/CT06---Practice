@@ -31,7 +31,8 @@ function draw() {
 
 
   fill(colorValue);
-  CSSNumericValue()
+  circle(colorValue);
+  colorValue +=
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop
