@@ -13,7 +13,7 @@ function draw() {
         
     // }
 
-    fill(shapeColor1);
+    fill(shapeColor);
     circle(width/2, height/2, 100);
 
 }
