@@ -21,3 +21,7 @@ function draw() {
 function mousePressed() {
     shapeColor = "red";
 }
+
+function mouseRe() {
+    shapeColor = "red";
+}
