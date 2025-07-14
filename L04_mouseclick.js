@@ -13,7 +13,6 @@ function draw() {
         
     // }
 
-    fill(
-    )
+    fill(shapeColor)
 
 }
