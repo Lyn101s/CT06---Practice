@@ -1,5 +1,5 @@
 // write your codes here
-let shapeColor = "blu"
+let shapeColor = "blue";
 
 function setup() {
     createCanvas(600, 400);
@@ -13,7 +13,7 @@ function draw() {
         
     // }
 
-    fill(shapeColor1, shapeColor2, shapeColor3);
+    //fill(shapeColor1, shapeColor2, shapeColor3);
     circle(width/2, height/2, 100);
 
 }
