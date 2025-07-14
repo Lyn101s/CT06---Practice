@@ -19,7 +19,7 @@ function draw() {
 }
 
 function mousePressed() {
-    fill(random(255), random(255), random(255));
+    shapeColor = color(random(255), random(255), random(255));
     
 }
 
