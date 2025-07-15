@@ -15,7 +15,7 @@ function draw() {
     }
 
     if (key === 't') {
-        triangle(width/2, height/2, width/2, height/2, width/2, height/2);
+        triangle(width/2, height/2, width/2 +50, height/2, width/2, height/2);
     }
 
 
