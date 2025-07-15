@@ -30,7 +30,9 @@ function draw() {
         x -=5;
     }
 
-
+    if (keyIsDown(RIGHT_ARROW)) {
+        x -=5;
+    }
 }
 
 // function keyPressed() {
