@@ -44,7 +44,7 @@ function draw() {
     }
 
     x = constrain(x,0+20,width-20);
-    y = constrain(y,0, height-20);
+    y = constrain(y,0+20, height-20);
     circle(x,y,40);
 }
 
