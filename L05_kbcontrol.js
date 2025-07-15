@@ -40,7 +40,7 @@ function keyPressed() {
             showCircle = true;
         }
 
-        showCircle = !showCircle; 
+        // showCircle = !showCircle; 
     }
 
 }
