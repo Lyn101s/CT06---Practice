@@ -43,7 +43,7 @@ function draw() {
         y +=5;
     }
 
-    x = constrain(x,)
+    if (x)
     circle(x,y,40);
 }
 
