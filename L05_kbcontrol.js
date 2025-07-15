@@ -1,4 +1,5 @@
 // write your codes here
+let rectSize = 
 function setup() {
 
 }
