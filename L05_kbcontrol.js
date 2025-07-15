@@ -42,7 +42,9 @@ function draw() {
     if (keyIsDown(DOWN_ARROW)) {
         y +=5;
     }
-    circle(x,y,20);
+
+    
+    circle(x,y,40);
 }
 
 // function keyPressed() {
