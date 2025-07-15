@@ -38,6 +38,10 @@ function draw() {
     if (keyIsDown(UP_ARROW)) {
         y -=5;
     }
+
+    if (keyIsDown(DOWN_ARROW)) {
+        y -=5;
+    }
     circle(x,y,20);
 }
 
