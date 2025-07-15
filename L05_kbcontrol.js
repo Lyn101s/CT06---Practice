@@ -2,7 +2,7 @@
 let rectSize = 50;
 
 function setup() {
-    create
+    createCanvas();
 }
 
 function draw() {
