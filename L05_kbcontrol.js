@@ -31,9 +31,7 @@ function keyPressed() {
         
     // }
 
-    if(key === 'C' || key === 'c') {
-        showCircle === true; 
-    }
+
 
 }
 
