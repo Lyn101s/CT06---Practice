@@ -27,7 +27,9 @@ function keyPressed() {
         
     // }
 
-    if(key === 'C' || key === 'c') 
+    if(key === 'C' || key === 'c') {
+        
+    }
 
 }
 
