@@ -16,36 +16,36 @@ function draw() {
 
 }
 
-function keyPressed() {
-    // rectSize *=2;
-    // randomCircles = random(5,20);
+// function keyPressed() {
+//     // rectSize *=2;
+//     // randomCircles = random(5,20);
 
-    // for (let i =0; i<randomCircles; i++) {
-    //     randSize = random(20,100);
-    //     randX = random(width-randSize);
-    //     randY = random(height-randSize);
-    //     randColor = color(random(255), random(255), random(255));
+//     // for (let i =0; i<randomCircles; i++) {
+//     //     randSize = random(20,100);
+//     //     randX = random(width-randSize);
+//     //     randY = random(height-randSize);
+//     //     randColor = color(random(255), random(255), random(255));
 
-    //     fill(randColor);
-    //     circle(randX, randY, randSize);
+//     //     fill(randColor);
+//     //     circle(randX, randY, randSize);
         
-    // }
+//     // }
 
-    if (key === 'c') {
+//     if (key === 'c') {
 
-        if (showCircle === true){
-            showCircle = false;
-        }
-        else{
-            showCircle = true;
-        }
+//         if (showCircle === true){
+//             showCircle = false;
+//         }
+//         else{
+//             showCircle = true;
+//         }
 
-        // showCircle = !showCircle; 
-    }
+//         // showCircle = !showCircle; 
+//     }
 
-}
+// }
 
-function keyReleased() {
-    // rectSize = 50;
-    //background(220);
-}
+// function keyReleased() {
+//     // rectSize = 50;
+//     //background(220);
+// }
