@@ -27,9 +27,11 @@ function keyPressed() {
         
     // }
 
+    if(key === 'C' || key === 'c') 
+
 }
 
 function keyReleased() {
     // rectSize = 50;
-    background(220);
+    //background(220);
 }
