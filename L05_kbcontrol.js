@@ -10,7 +10,7 @@ function draw() {
     background(220);
     // rect(width/2-rectSize/2, height/2-rectSize/2, rectSize, rectSize);
 
-    if (showCircle === true) {
+    if (key === 'c') {
         circle(width/2, height/2, 100);
     }
 
