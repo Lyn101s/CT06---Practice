@@ -1,5 +1,6 @@
 // write your codes here
 //let rectSize = 50; //rectSize
+let showCircle = false;
 
 function setup() {
     //createCanvas(400, 400);
