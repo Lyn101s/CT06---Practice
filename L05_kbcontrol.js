@@ -22,7 +22,7 @@ function keyPressed() {
         randColor = color(random(255), random(255), random(255),);
 
         fill(randColor);
-        circle(randX, randY, )
+        circle(randX, randY, randSize);
         
     }
 
@@ -30,4 +30,5 @@ function keyPressed() {
 
 function keyReleased() {
     // rectSize = 50;
+    background(220)
 }
