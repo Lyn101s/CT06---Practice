@@ -1,7 +1,7 @@
 // write your codes here
 //let rectSize = 50; //rectSize
 //let showCircle = false;
-let x = 300;
+let x = 200;
 let y = 200;
 
 function setup() {
