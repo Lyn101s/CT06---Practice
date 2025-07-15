@@ -19,7 +19,7 @@ function keyPressed() {
         randSize = random(20,100);
         randX = random(width-randSize);
         randY = random(height-randSize);
-        randColor = color(random(255), random(255), random(255),);
+        randColor = color(random(255), random(255), random(255));
 
         fill(randColor);
         circle(randX, randY, randSize);
