@@ -16,7 +16,7 @@ function keyPressed() {
     randomCircles = random(5,20);
 
     for (let i =0; i<randomCircles; i++) {
-        randSize 
+        randSize = random()
         randX = random(width-randSize);
         randY = random(height-randSize);
         randColor = color(random(255), random(255), random(255),);
