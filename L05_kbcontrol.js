@@ -25,7 +25,7 @@ function draw() {
     // }
 
     background(220);
-    circle(x,y,20)
+    circle(x,y,20);
 
     if (keyIsDown(LEFT_ARROW)) {
         x -=5;
