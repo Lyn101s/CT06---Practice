@@ -13,7 +13,7 @@ function draw() {
 
 function keyPressed() {
     // rectSize *=2;
-    randomCircle = 
+    randomCircles = random(5,21)
 
 }
 
