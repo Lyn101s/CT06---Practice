@@ -7,20 +7,20 @@ function setup() {
 }
 
 function draw() {
-    background(220);
-    // rect(width/2-rectSize/2, height/2-rectSize/2, rectSize, rectSize);
+    // background(220);
+    // // rect(width/2-rectSize/2, height/2-rectSize/2, rectSize, rectSize);
 
-    if (key === 'c') {
-        circle(width/2, height/2, 100);
-    }
+    // if (key === 'c') {
+    //     circle(width/2, height/2, 100);
+    // }
 
-    if (key === 't') {
-        triangle(width/2 -50, height/2 + 50, width/2, height/2 - 50, width/2 +50, height/2+50);
-    }
+    // if (key === 't') {
+    //     triangle(width/2 -50, height/2 + 50, width/2, height/2 - 50, width/2 +50, height/2+50);
+    // }
 
-    if (key === 's') {
-        rect(width/2 -100/2, height/2 -100/2, 100, 100);
-    }
+    // if (key === 's') {
+    //     rect(width/2 -100/2, height/2 -100/2, 100, 100);
+    // }
 
 
 
