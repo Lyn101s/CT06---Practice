@@ -1,7 +1,8 @@
 // write your codes here
-let rectSize = 
-function setup() {
+let rectSize = 50;
 
+function setup() {
+    create
 }
 
 function draw() {
