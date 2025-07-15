@@ -13,7 +13,11 @@ function draw() {
 
 function keyPressed() {
     // rectSize *=2;
-    randomCircles = random(5,21)
+    randomCircles = random(5,20);
+
+    for (let i =0; i<randomCircles; i++) {
+        
+    }
 
 }
 
