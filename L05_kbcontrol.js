@@ -2,7 +2,7 @@
 //let rectSize = 50; //rectSize
 
 function setup() {
-    createCanvas(400, 400);
+    //createCanvas(400, 400);
 }
 
 function draw() {
@@ -13,18 +13,18 @@ function draw() {
 
 function keyPressed() {
     // rectSize *=2;
-    randomCircles = random(5,20);
+    // randomCircles = random(5,20);
 
-    for (let i =0; i<randomCircles; i++) {
-        randSize = random(20,100);
-        randX = random(width-randSize);
-        randY = random(height-randSize);
-        randColor = color(random(255), random(255), random(255));
+    // for (let i =0; i<randomCircles; i++) {
+    //     randSize = random(20,100);
+    //     randX = random(width-randSize);
+    //     randY = random(height-randSize);
+    //     randColor = color(random(255), random(255), random(255));
 
-        fill(randColor);
-        circle(randX, randY, randSize);
+    //     fill(randColor);
+    //     circle(randX, randY, randSize);
         
-    }
+    // }
 
 }
 
