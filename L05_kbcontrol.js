@@ -1,6 +1,8 @@
 // write your codes here
 //let rectSize = 50; //rectSize
 //let showCircle = false;
+let x = 300;
+let y = 200;
 
 function setup() {
     createCanvas(400, 400);
@@ -22,7 +24,11 @@ function draw() {
     //     rect(width/2 -100/2, height/2 -100/2, 100, 100);
     // }
 
-    
+    background(220);
+
+    if (keyIsDown(LEFT_ARROW)) {
+        x -=5;
+    }
 
 
 }
