@@ -19,7 +19,7 @@ function draw() {
     }
 
     if (key === 's') {
-        triangle(width/2 -50, height/2 + 50, width/2 +25, height/2 - 50, width/2 +50, height/2+50);
+        rect(width/2 -50, height/2 + 50, );
     }
 
 
