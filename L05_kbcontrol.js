@@ -10,6 +10,10 @@ function draw() {
     background(220);
     // rect(width/2-rectSize/2, height/2-rectSize/2, rectSize, rectSize);
 
+    if (showCircle === true) {
+        
+    }
+
 }
 
 function keyPressed() {
@@ -28,7 +32,7 @@ function keyPressed() {
     // }
 
     if(key === 'C' || key === 'c') {
-        
+
     }
 
 }
