@@ -12,10 +12,10 @@ function draw() {
 }
 
 function keyPressed() {
-    rectSize *=2;
+    // rectSize *=2;
 
 }
 
 function keyReleased() {
-    rectSize = 50;
+    // rectSize = 50;
 }
