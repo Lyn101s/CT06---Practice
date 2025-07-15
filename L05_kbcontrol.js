@@ -32,7 +32,7 @@ function keyPressed() {
     // }
 
     if (key === 'c') {
-        showCircle = true; 
+        showCircle = !showCircle; 
     }
 
 }
