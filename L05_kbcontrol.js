@@ -1,5 +1,5 @@
 // write your codes here
-let rectSize = 50; //rectSize
+//let rectSize = 50; //rectSize
 
 function setup() {
     createCanvas(400, 400);
