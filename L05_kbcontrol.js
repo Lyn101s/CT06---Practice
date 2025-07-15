@@ -19,7 +19,7 @@ function draw() {
     }
 
     if (key === 's') {
-        rect(width/2 -100, height/2 -100, 100, 100);
+        rect(width/2 -100/2, height/2 -100/2, 100, 100);
     }
 
 
