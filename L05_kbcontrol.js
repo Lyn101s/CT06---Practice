@@ -16,7 +16,7 @@ function keyPressed() {
     randomCircles = random(5,20);
 
     for (let i =0; i<randomCircles; i++) {
-        
+        randX = random()
     }
 
 }
