@@ -13,6 +13,7 @@ function draw() {
 
 function keyPressed() {
     rectSize *=2;
+    
 }
 
 function keyReleased() {
