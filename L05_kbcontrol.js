@@ -17,6 +17,7 @@ function keyPressed() {
 
     for (let i =0; i<randomCircles; i++) {
         randX = random(width-randSize);
+        randY = random(width-randSize);
     }
 
 }
