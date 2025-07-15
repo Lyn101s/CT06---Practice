@@ -1,5 +1,6 @@
 // write your codes here
 let shapeColor = "blue";
+let circleSize = 100;
 
 function setup() {
     createCanvas(600, 400);
@@ -13,16 +14,25 @@ function draw() {
         
     // }
 
-    fill(shapeColor);
-    circle(width/2, height/2, 100);
+    // fill(shapeColor);
+    // circle(width/2, height/2, 100);
+    background(220);
+    ellipse(width/2, height/2, circleSize, circleSize);
 
 }
 
-function mousePressed() {
-    shapeColor = color(random(255), random(255), random(255));
+function mouseMoved() {
+    fill('red');
+    circleSize = mouseX;
     
 }
 
-function mouseReleased() {
-    shapeColor = "blue";
-}
+// function mousePressed() {
+//     shapeColor = "red";
+    
+// }
+
+// function mouseReleased() {
+    
+//     shapeColor = color(random(255), random(255), random(255));
+// }
