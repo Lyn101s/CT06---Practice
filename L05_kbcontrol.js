@@ -33,8 +33,11 @@ function keyPressed() {
 
     if (key === 'c') {
 
+        if (showCircle === true){
+            showCircle = false;
+        }
+        else
 
-        
         showCircle = !showCircle; 
     }
 
