@@ -19,6 +19,7 @@ function keyPressed() {
         randX = random(width-randSize);
         randY = random(height-randSize);
         randColor = color(random(255), random(255), random(255),);
+        
     }
 
 }
