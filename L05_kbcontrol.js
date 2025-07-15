@@ -36,7 +36,9 @@ function keyPressed() {
         if (showCircle === true){
             showCircle = false;
         }
-        else
+        else{
+            showCircle = true;
+        }
 
         showCircle = !showCircle; 
     }
