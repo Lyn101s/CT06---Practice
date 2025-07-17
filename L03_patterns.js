@@ -52,7 +52,7 @@ function draw() {
 
   // }
 
-  // //align group of circles to left side. 
+  // //align row of circles to left side. 
   // let circleDia = 30;
   // let numOfCircle = 5;
   // let totalDia = numOfCircle*circleDia;
