@@ -71,10 +71,11 @@ function draw() {
   let startX = (width-totalDia)/2 + circleDia/2;
   let startY = (height - totalDia)/2 + circleDia/2;
 
-  for(let j=0; j<numOfCircle)
-  for(let i=0; i<numOfCircle; i++) {
-    circle( startX + i*circleDia , height/2, circleDia);
+  for(let j=0; j<numOfCircle; j++) {
+    for(let i=0; i<numOfCircle; i++) {
+      circle( startX + i*circleDia , height/2, circleDia);
 
+    }
   }
 
   // Task 1: Colour Gradient
