@@ -79,7 +79,7 @@ function draw() {
   //   }
   // }
 
-  align group of circles to the centre
+//align group of circles to the left
   let circleDia = 30;
   let numOfCircle = 5;
   let totalDia = numOfCircle*circleDia;
