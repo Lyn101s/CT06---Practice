@@ -64,6 +64,17 @@ function draw() {
 
   // }
 
+  //align group of circles to center
+  let circleDia = 30;
+  let numOfCircle = 5;
+  let totalDia = numOfCircle*circleDia;
+  let startX = (width-totalDia)/2 + circleDia/2;
+
+  for(let i=0; i<numOfCircle; i++) {
+    circle( startX + i*circleDia , height/2, circleDia);
+
+  }
+
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop
