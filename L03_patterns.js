@@ -72,9 +72,9 @@ function draw() {
   let startY = (height - totalDia)/2 + circleDia/2;
 
   for(let j=0; j<numOfCircle; j++) {
-    let y = height/2 + i*cir
+    let y = height/2 + i*circleDia;
     for(let i=0; i<numOfCircle; i++) {
-      circle( startX + i*circleDia , height/2, circleDia);
+      circle( startX + i*circleDia , y, circleDia);
 
     }
   }
