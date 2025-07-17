@@ -79,20 +79,20 @@ function draw() {
   //   }
   // }
 
-  //align group of circles to the centre
-  // let circleDia = 30;
-  // let numOfCircle = 5;
-  // let totalDia = numOfCircle*circleDia;
-  // let startX = (width-totalDia)/2 + circleDia/2;
-  // let startY = (height - totalDia)/2 + circleDia/2;
+  align group of circles to the centre
+  let circleDia = 30;
+  let numOfCircle = 5;
+  let totalDia = numOfCircle*circleDia;
+  let startX = (width-totalDia)/2 + circleDia/2;
+  let startY = (height - totalDia)/2 + circleDia/2;
 
-  // for(let j=0; j<numOfCircle; j++) {
-  //   let y = startY + j*circleDia;
-  //   for(let i=0; i<numOfCircle; i++) {
-  //     circle( startX + i*circleDia , y, circleDia);
+  for(let j=0; j<numOfCircle; j++) {
+    let y = startY + j*circleDia;
+    for(let i=0; i<numOfCircle; i++) {
+      circle( startX + i*circleDia , y, circleDia);
 
-  //   }
-  // }
+    }
+  }
 
   // Task 1: Colour Gradient
 
