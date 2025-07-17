@@ -69,6 +69,7 @@ function draw() {
   let numOfCircle = 5;
   let totalDia = numOfCircle*circleDia;
   let startX = (width-totalDia)/2 + circleDia/2;
+  let startY = 
 
   for(let i=0; i<numOfCircle; i++) {
     circle( startX + i*circleDia , height/2, circleDia);
