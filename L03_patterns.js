@@ -64,7 +64,7 @@ function draw() {
 
   // }
 
-  //align group of circles to top and centre
+  //align group of circles with centre
   let circleDia = 30;
   let numOfCircle = 5;
   let totalDia = numOfCircle*circleDia;
