@@ -1,7 +1,7 @@
 // write your codes here
 
 let soundEffect, bgMusic, staticImage;
-let spriteX, spriteY
+let spriteX, spriteY;
 
 function preload() {
     soundEffect = loadSound('assets/pop.mp3');
