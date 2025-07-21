@@ -10,4 +10,9 @@ function draw() {
     // noStroke();
     // rect(20+ i*40, 50, 30, 30);
     // }
+
+    //challenge 2
+    for (let i=0; i < 10; i++) {
+        
+    }
 }
