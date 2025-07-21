@@ -4,8 +4,8 @@ let soundEffect, bgMusic, staticImage;
 
 function preload() {
     soundEffect = loadSound('assets/pop.mp3');
-    bgMusic = loadSound('assests/bossaNova.mps');
-    staticImage = loadImage('assests/pico-a.png');
+    bgMusic = loadSound('assets/bossaNova.mps');
+    staticImage = loadImage('assets/pico-a.png');
 }
 
 function setup() {
