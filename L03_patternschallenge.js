@@ -15,6 +15,6 @@ function draw() {
     for (let i=0; i < 10; i++) {
         fill(255-i*10);
         noStroke();
-        rect()
+        rect();
     }
 }
