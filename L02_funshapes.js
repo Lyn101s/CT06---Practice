@@ -22,6 +22,6 @@ function draw() {
 
   noFill();
   stroke(255, 0, 0);
-  strokeWeight(1)
+  strokeWeight(15);
   circle(100, 100, 60);
 }
