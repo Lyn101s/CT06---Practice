@@ -15,6 +15,6 @@ function draw() {
     for (let i=0; i < 51; i++) {
         fill(i*51);
         noStroke();
-        rect(10+i*5, 50, 10, 30);
+        rect(10+i*5, 50, 5, 30);
     }
 }
