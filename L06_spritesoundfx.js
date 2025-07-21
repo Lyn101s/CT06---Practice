@@ -12,6 +12,7 @@ function preload() {
 function setup() {
     createCanvas(500, 500);
     // bgMusic.loop();
+    spriteX = wdth/2
 }
 
 function draw() {
