@@ -14,6 +14,7 @@ function setup() {
 }
 
 function draw() {
+    background
     staticImage();
 }
 
