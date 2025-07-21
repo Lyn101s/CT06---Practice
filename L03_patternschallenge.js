@@ -5,9 +5,9 @@ function setup() {
 
 function draw() {
     //challenge 1
-    for(let i=0; i<8; i++) {
-    fill(255 - i*30);
-    noStroke();
-    rect(20+ i*40, 50, 30, 30);
-    }
+    // for(let i=0; i<8; i++) {
+    // fill(255 - i*30);
+    // noStroke();
+    // rect(20+ i*40, 50, 30, 30);
+    // }
 }
