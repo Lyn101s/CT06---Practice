@@ -1,3 +1,3 @@
 // write your codes here
 
-let soundEfftct
+let soundEffect, bgMusic, 
