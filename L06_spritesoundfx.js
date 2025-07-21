@@ -25,7 +25,7 @@ function draw() {
     }
 
     if(keyIsDown(RIGHT_ARROW)) {
-        spriteY +=5;
+        spriteX +=5;
     }
 }
 
