@@ -14,6 +14,7 @@ function setup() {
     // bgMusic.loop();
     spriteX = width/2;
     spriteY = height - 150; 
+    spriteSpeed = 5;
 }
 
 function draw() {
@@ -21,11 +22,11 @@ function draw() {
     image(staticImage, spriteX, spriteY, 110, 133);
 
     if(keyIsDown(LEFT_ARROW)) {
-        spriteX -=5;
+        spriteX -= spriteSpeed;
     }
 
     if(keyIsDown(RIGHT_ARROW)) {
-        spriteX +=5;
+        spriteX +=s;
     }
 }
 
