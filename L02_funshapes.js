@@ -21,5 +21,5 @@ function draw() {
   // Challenge 7: Create a funny Pokemon
 
   noFill();
-  
+  stroke(0);
 }
