@@ -22,4 +22,5 @@ function draw() {
 
   noFill();
   stroke(255, 0, 0);
+  circle(100, 100, 60)
 }
