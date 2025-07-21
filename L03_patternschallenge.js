@@ -6,6 +6,7 @@ function setup() {
 function draw() {
     for(let i=0; i<5; i++) {
     fill(255 - i*50);
+    noStroke();
     rect(50+ i*50, 50, 50, 50);
     }
 }
