@@ -7,6 +7,6 @@ function draw() {
     for(let i=0; i<5; i++) {
     fill(255 - i*50);
     noStroke();
-    rect(50 + i*30, 50, 30, 30);
+    rect(80 + i*30, 50, 30, 30);
     }
 }
