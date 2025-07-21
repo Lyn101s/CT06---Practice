@@ -26,5 +26,7 @@ function keyPressed() {
         soundEffect.play();
     }
 
+    if()
+
 }
 
