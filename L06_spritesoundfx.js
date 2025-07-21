@@ -8,3 +8,6 @@ function preload() {
     staticImage = loadImage('assests/pico-a.png');
 }
 
+function setup() {
+    
+}
