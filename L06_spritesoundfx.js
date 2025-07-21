@@ -15,7 +15,7 @@ function setup() {
 
 function draw() {
     background('lightblue');
-    staticImage(static);
+    staticImage(staticImage, 0, 0, 100, 100);
 }
 
 function keyPressed() {
