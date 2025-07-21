@@ -21,7 +21,8 @@ function draw() {
     background('lightblue');
     image(staticImage, spriteX, spriteY, 110, 133);
 
-    
+    spriteX = constrain()
+
     if(keyIsDown(LEFT_ARROW)) {
         spriteX -= spriteSpeed;
     }
