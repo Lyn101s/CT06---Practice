@@ -20,7 +20,8 @@ function draw() {
 
   // Challenge 7: Create a funny Pokemon
 
-  noFill();
+  noStroke();
+  fill(2)
   //stroke(255, 0, 0);
   //strokeWeight(15);
   circle(100, 100, 60);
