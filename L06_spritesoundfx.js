@@ -12,7 +12,8 @@ function preload() {
 function setup() {
     createCanvas(500, 500);
     // bgMusic.loop();
-    spriteX = wdth/2
+    spriteX = width/2;
+    spriteY = height - 150; 
 }
 
 function draw() {
