@@ -21,12 +21,13 @@ function draw() {
     background('lightblue');
     image(staticImage, spriteX, spriteY, 110, 133);
 
+    
     if(keyIsDown(LEFT_ARROW)) {
         spriteX -= spriteSpeed;
     }
 
     if(keyIsDown(RIGHT_ARROW)) {
-        spriteX +=s;
+        spriteX +=spriteSpeed;
     }
 }
 
