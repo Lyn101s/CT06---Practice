@@ -24,4 +24,3 @@ function keyPressed() {
     }
 }
 
-assets/pop.mp3
