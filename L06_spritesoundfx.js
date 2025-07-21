@@ -21,7 +21,7 @@ function draw() {
     image(staticImage, 0, 0, 110, 133);
 
     if(keyIsDown(LEFT_ARROW)) {
-        spriteX 
+        spriteX -=5;
     }
 
         if(keyIsDown(LEFT_ARROW)) {
