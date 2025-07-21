@@ -4,6 +4,7 @@ function setup() {
 }
 
 function draw() {
+    //challenge 1
     for(let i=0; i<8; i++) {
     fill(255 - i*30);
     noStroke();
