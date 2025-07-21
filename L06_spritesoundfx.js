@@ -4,5 +4,6 @@ let soundEffect, bgMusic, staticImage;
 
 function preload() {
     soundEffect = loadSound('assests/pop.mp3');
-    bgMusic = loadSound('assests/')
+    bgMusic = loadSound('assests/bossaNova.mps');
+    stat
 }
