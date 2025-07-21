@@ -4,6 +4,6 @@ function setup() {
 }
 
 function draw() {
-    fill()
+    fill(255 - i*50);
     rect(50, 50, 50, 50);
 }
