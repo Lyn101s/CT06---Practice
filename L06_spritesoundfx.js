@@ -14,7 +14,7 @@ function setup() {
 }
 
 function draw() {
-    
+    staticImage();
 }
 
 function keyPressed() {
