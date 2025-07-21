@@ -13,7 +13,7 @@ function draw() {
 
     //challenge 2
     for (let i=0; i < 51; i++) {
-        fill(i*10);
+        fill(i*5);
         noStroke();
         rect(10+i*5, 50, 5, 30);
     }
