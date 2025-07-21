@@ -1,6 +1,7 @@
 // write your codes here
 
 let soundEffect, bgMusic, staticImage;
+let SpriteX, 
 
 function preload() {
     soundEffect = loadSound('assets/pop.mp3');
@@ -22,5 +23,6 @@ function keyPressed() {
     if(keyCode===32) {
         soundEffect.play();
     }
+
 }
 
