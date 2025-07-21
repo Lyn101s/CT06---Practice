@@ -29,6 +29,8 @@ function draw() {
     if(keyIsDown(RIGHT_ARROW)) {
         spriteX +=spriteSpeed;
     }
+
+    spriteX = constrain(spriteX, 0, width-110);
 }
 
 function keyPressed() {
